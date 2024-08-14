@@ -15,8 +15,8 @@ from aux2 import *
 img_path,base_path = img_base_pth()
 
 container_name = "pdi-dashboard"
-# storage_account_key = os.getenv("storage_key")
-storage_account_key = read_storage_key('storage_key.txt')
+storage_account_key = os.getenv("storage_key")
+# storage_account_key = read_storage_key('storage_key.txt')
 # Defina suas credenciais e o nome do contêiner
 storage_account_name = "hlbdatalake"
 # Conectar ao BlobServiceClient usando a connection string
