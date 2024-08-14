@@ -15,5 +15,4 @@ streamlit_option_menu==0.3.12
 wordcloud==1.9.3
 openpyxl
 Cython
-scikit-learn
 --only-binary=:all: scikit-learn
